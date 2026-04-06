@@ -757,14 +757,12 @@ font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
 }
 
-/* REMOVE DEFAULT BULLETS */
 .benefits-list {
     list-style: none;
     padding: 0;
     margin-top: 1.5rem;
 }
 
-/* EACH ITEM */
 .benefits-list li {
     position: relative;
     padding-left: 2.2rem;
@@ -773,8 +771,7 @@ font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
 }
 
-/* ORANGE CIRCLE */
-.benefits-list li::before {
+ .benefits-list li::before {
     content: "";
     position: absolute;
     left: 0;
@@ -907,18 +904,11 @@ font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 1rem;
 }
 
-
-.phase-card h3 {
-    margin: 0;
-    font-size: 1rem;
-    color: #fc8436;
-    font-weight: 700;
-}
-
 .phase-card h4 {
     margin: 0.3rem 0 0;
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 700;
+    color: #053b8f;
 }
 
 .description {
@@ -927,7 +917,7 @@ font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
 }
 
-.topics li {
+/* .topics li {
     margin-bottom: 0.6rem;
     padding-left: 1.2rem;
     position: relative;
@@ -939,7 +929,7 @@ font-family: Arial, Helvetica, sans-serif;
     left: 0;
     color: #fc8436;
     font-weight: bold;
-}
+} */
 
 .projects {
     border-top: 1px solid #eee;
